@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<!--Declears the language of the web page-->
+<html lang="en">
+
+<head>
+    <!--Allows for writing in all languages-->
+    <meta charset="utf-8" />
+
+    <title>Pool of Youth</title>
+    <link rel="shortcut icon" type="image/x-icon" href="../resources/PoYpfp.png">
+
+    <link rel="stylesheet" href="../resources/styles/apply.css" type="text/css">
+    <link rel="stylesheet" href="../resources/styles/navbar.css" type="text/css">
+    <link rel="stylesheet" href="../resources/styles/footer.css" type="text/css">
+    <link rel="stylesheet" href="../resources/styles/NFTBanner.css" type="text/css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+
+</head>
+
+<body>
+
+    <!--NAVBAR-->
+    <div class="navbar">
+
+        <a href='../index.html'>
+            <img src="../resources/PoYLogoAndTitle2.png">
+        </a>
+        
+
+        <div class='navbarLinks'>
+            <a id="navLink" href='../html/aboutus.html'><h4>About Us</h4></a>
+            <a id="navLink" href='../html/viewprojects.html'><h4>View Projects</h4></a>
+            <a id="navLink" href='../html/apply.html'><h4>Apply</h4></a>
+            <a id="startStaking" href='../html/startstaking.html'><h4>Start Staking</h4></a>
+        </div>
+</div>
+
+    <!--NFT BANNER-->
+
+    <div class='NFTBanner'>
+
+        <p>Help fund our stake pool!</p>
+
+        <h4>LIMITED EDITION NFTS >>></h4>
+
+        <img src="https://pro.nft-maker.io/images/buttons/paybutton_2_2.svg" onclick="javascript:openPaymentWindow()">
+
+    </div> 
+
+    <!--APPLICATION INFO SECTION-->
+    <div class='applyInfo'>
+        <div class='applyInfoContainer'>
+            <div class='title'>
+                <div id='send'><h2>Send us your</h2></div>
+                <div id='project'><h1>Project Application</h1></div>
+            </div>
+
+            <p>Visit this page later to have your project featured on our website</p>
+        </div>
+
+    </div>
+
+    <!--NFT BANNER-->
+
+    <div class='NFTBanner'>
+
+        <p>Help fund our stake pool!</p>
+
+        <h4>LIMITED EDITION NFTS >>></h4>
+
+        <img src="https://pro.nft-maker.io/images/buttons/paybutton_2_2.svg" onclick="javascript:openPaymentWindow()">
+
+    </div> 
+
+    <!--FOOTER-->
+    <div class='footer'>
+        <div class='footerEmpty'>
+            <p>View Projects</p>
+        </div>
+        <div class='footerContainer'>
+            
+            <a href='../index.html'>
+                <img id='PoYpfp' src='../resources/PoYpfp.png'>
+            </a>
+
+            <div class='socialMedia'>
+                <a href='https://twitter.com/PoolofYouth' target='_blank'>
+                    <img id='socials' src='../resources/twitter.png'>
+                </a>
+                <a href='https://www.youtube.com/channel/UCupfVA0hngPwtJUihwD7ihg' target='_blank'>
+                    <img id='socials' src='../resources/youtube.png'>
+                </a>
+                <a href='mailto:poolofyouth@hotmail.com' target='_blank'>
+                    <img id='socials' src='../resources/email.png'>
+                </a>
+            </div>
+        </div>
+
+        <div class='footerLinks'>
+            <a href='../html/aboutus.html'><h4>About Us</h4></a>
+            <a href='../html/viewprojects.html'><h4>View Projects</h4></a>
+            <a href='../html/apply.html'><h4>Apply</h4></a>
+            <a href='../html/startstaking.html'><h4>Start Staking</h4></a>
+
+        </div>
+    </div>
+
+    </body>
+
+    <script type="text/javascript">
+        function openPaymentWindow() {
+            const paymentUrl = "https://pay.nmkr.io/?p=f6118a79082045e98672e31ec22ee8e4&c=1";
+    
+            // Specify the popup width and height
+            const popupWidth = 500;
+            const popupHeight = 700;
+    
+            // Calculate the center of the screen
+            const left = window.top.outerWidth / 2 + window.top.screenX - ( popupWidth / 2);
+            const top = window.top.outerHeight / 2 + window.top.screenY - ( popupHeight / 2);
+    
+            const popup =  window.open(paymentUrl, "NFT-MAKER PRO Payment Gateway",  `popup=1, location=1, width=${popupWidth}, height=${popupHeight}, left=${left}, top=${top}`);
+    
+            // Show dim background
+            document.body.style = "background: rgba(0, 0, 0, 0.5)";
+    
+            // Continuously check whether the popup has been closed
+            const backgroundCheck = setInterval(function () {
+                if(popup.closed) {
+                    clearInterval(backgroundCheck);
+    
+                    console.log("Popup closed");
+    
+                    // Remove dim background
+                    document.body.style = "";
+                }
+            }, 1000);
+        }
+    </script>
+
+</html>
