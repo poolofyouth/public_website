@@ -1,0 +1,212 @@
+
+/* OUR VISION SECTION*/
+
+.ourVision {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+ 
+  position: relative;
+  height: 46vw; 
+  width: 100vw;
+ 
+  background-color: #FFFFFF;
+ }
+ 
+ .ourVisionContainerText {
+   display: flex;
+   flex-flow: column;
+   width: 90%;
+   padding: 8%;
+ }
+ 
+ .ourVision h2 {
+   font-family: 'Roboto';
+   font-style: normal;
+   font-size: 3vw;
+   
+   text-align: left;
+   width: 100%;
+   
+   color: #167D7F;
+ }
+ 
+ .ourVision p {
+ width: 100%;
+ height: 22vw;
+ 
+ font-family: 'Roboto';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 1.4vw;
+ line-height: 2.8vw;
+ 
+ color: #1A5D5F;
+ }
+ 
+ .ourVisionPeople {
+   display: flex;
+   flex-flow: row;
+   justify-content: bottom;
+   align-items: end;
+   width: 80%;
+   height: 24vw;
+ }
+ 
+ #sittingPerson{
+ width: 40%;
+ height: 60%;
+ }
+ 
+ #floatingPerson {
+ width: 40%;
+ height: 60%;
+ padding-right: 10vw;
+ }
+ 
+ 
+ /*YOUTH PROJECTS SECTION*/
+ .youthProjects {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+ 
+  
+   width: 100vw;
+   position: relative;
+   height: 55.5vw; 
+  
+   background-color: #98D7C2;
+ }
+ 
+ .youthProjectsContainer {
+   display: flex;
+   flex-flow: column;
+   width: 90%;
+   align-items: center;
+   justify-content: space-evenly;
+ }
+ 
+ .youthProjects h1 {
+   display: flex;
+   flex-flow: row;
+   align-items: center;
+ 
+   font-family: 'Roboto';
+   font-style: normal;
+   font-size: 4.2vw;
+ 
+   color: white;
+ }
+ 
+ .youthProjectsProfiles {
+   display: flex;
+   flex-flow: row;
+   justify-content: center;
+   width: 75%;
+   padding-top: 5%;
+   padding-bottom: 5%;
+ }
+ 
+ .youthProjectsProfiles img {
+   width: 30%;
+   height: 30%;
+   padding-left: 2%;
+   padding-right: 2%;
+ }
+ 
+ .youthProjectsButton {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+  
+   width: 8vw;
+   height: 3.5vw; 
+   border-radius: 10px;
+ 
+   background-color: white;
+ }
+ 
+ .youthProjectsButton h4 {
+   font-size: 1.5vw;
+ }
+ 
+ #apply{
+   display: flex;
+   flex-flow: row;
+   align-items: center;
+ 
+   font-family: 'Roboto';
+   font-style: normal;
+   font-size: 1rem;
+   text-decoration-line: none;
+   text-align: center;
+   height: 100%;
+ 
+   color: #1A5D5F;
+ }
+
+ .youthProjectsButton:hover {
+  background-color: #167D7F;
+}
+
+  .youthProjectsButton h4:hover {
+  color: #FFFFFF;
+}
+ 
+ 
+ 
+ 
+ /* JOIN THE POOL PARTY SECTION */
+ 
+ .joinThePoolParty {
+   display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+ 
+  width: 100vw;
+  position: relative;
+  height: 55.5vw; 
+ }
+ 
+ .joinThePoolPartyContainer {
+   display: flex;
+   flex-flow: column;
+   width: 50%;
+   padding: 0%;
+ }
+ 
+ .joinThePoolParty h1 {
+   display: flex;
+   flex-flow: row;
+   text-align: center;
+   justify-content: center;
+ 
+   font-family: 'Roboto';
+   font-style: normal;
+   font-size: 4.2vw;
+     
+   color: #167D7F;
+ }
+ 
+ .joinThePoolParty p {
+   display: flex;
+   flex-flow: row;
+   text-align: center;
+   padding-top: 15%;
+ 
+   font-family: 'Roboto';
+   font-style: normal;
+   font-size: 1.4vw;
+   line-height: 2.8vw;
+   margin-top: -2.4vw;
+   margin-bottom: 3vw;
+ 
+     
+   color: #1A5D5F;
+ }

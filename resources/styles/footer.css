@@ -1,0 +1,107 @@
+html {
+  font-size: 18px;
+}
+
+body {
+  margin: 0;
+}
+
+
+/*MAIN FOOTER FLEX*/
+.footer { 
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    justify-content: flex-start;
+    justify-content: space-evenly;
+ 
+    width: 100vw;
+    position: relative;
+    height: 35vw;
+  
+    background-color: #167D7F;
+    background-image: url(../lowOpacityPoYWater.png);
+    background-size: cover;
+  }
+
+
+/*LEFT FOOTER EMPTY PLACEHOLDER
+  allows for even spacing of content*/
+  .footerEmpty {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+
+    opacity: 0;
+
+    font-family: 'Roboto';
+    font-style: normal;
+  }
+
+  /*PFP & SOCIAL MEDIA ICONS*/
+  .footerContainer {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+  }
+
+  #PoYpfp {
+    width: 14vw;
+    height: 14vw;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.3));
+  }
+
+  .socialMedia {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+  }
+
+  #socials {
+    width: 2vw;
+    height: 2vw;  
+
+    margin-top:1.5vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+
+    border: 3px solid #FFFFFF;
+    border-radius: 10vw;
+    border-color: white;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+  }
+
+  #socials:hover {
+    box-shadow: 4px 16px 16px rgba(0, 0, 0, 0.3);
+  }
+
+  /*LINKS*/
+  .footerLinks {
+    display: flex;
+    flex-flow: column;
+    padding: 0vw;
+    margin-right: -30px;
+    justify-content: center;
+
+    left: 1136px;
+    top: 2602px;
+  }
+
+  .footerLinks h4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2vw;
+    line-height: 17px;
+
+    color: #FFFFFF;
+    text-decoration-line: underline;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+  }
+
+  .footerLinks h4:hover {
+    box-shadow: 4px 16px 16px rgba(0, 0, 0, 0.3);
+  }
+

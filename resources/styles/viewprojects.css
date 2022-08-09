@@ -1,0 +1,104 @@
+
+/* YOUTH PROJECTS INFO*/
+.youthProjectsInfo {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+ 
+  position: relative;
+  height: 46vw; 
+  width: 100vw;
+ 
+  background-color: #FFFFFF;
+  }
+  
+  .youthProjectsInfoImage {
+   display: flex;
+   flex-flow: row;
+   justify-content: center;
+   align-items: center;
+   width: 12.5%;
+   height: 46vw;
+  }
+ 
+  #sittingPerson {
+   width: 100%;
+   height: 35%;
+   padding-left: 40%;
+   }
+ 
+ 
+   #sittingPerson2 {
+     width: 100%;
+     height: 30%;
+     padding-left: 10%;
+   }
+   
+  
+  .youthProjectsInfoContainer {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+   }
+  
+  .youthProjectsInfo h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 3vw;
+  }
+ 
+  #check {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    height: 3vw;
+    width: 100%;
+    margin-top: 10vw;
+ 
+   color: #167D7F;
+  }
+ 
+  #fellow {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    height: 3vw;
+    width: 100%;
+    margin-top: 0.5vw;
+ 
+   color: #ED99A0;
+  }
+  
+  .youthProjectsInfo p {
+   display: flex;
+   flex-flow: row;
+   align-items: center;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 1.4vw;
+    text-align: center;
+    margin-top: 2.5vw;
+    
+    color: #1A5D5F;
+  }
+ 
+  .youthProjectsInfoImage2 {
+   display: flex;
+   flex-flow: row;
+   justify-content: center;
+   align-items: center;
+   width: 25%;
+   height: 46vw;
+  }
+ 
+  #floatingPerson {
+   width: 65%;
+   height: 40%;
+   }
+  
+ 

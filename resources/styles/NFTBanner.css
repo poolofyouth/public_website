@@ -1,0 +1,43 @@
+/* NFT BANNER*/
+
+.NFTBanner {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+ 
+    width: 100vw;
+    height: 3.5vw;
+ 
+    background-color: #ED99A0;
+ }
+ 
+ .NFTBanner h4 {
+   font-family: 'Roboto';
+   font-style: normal;
+   font-size: 1.5vw;
+    
+   text-align: left;
+   width: 100%;
+   padding-left: 20%;
+ 
+   color: #FFFFFF;
+ }
+
+ .NFTBanner p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 1vw;
+     
+    width: 100%;
+    padding-left: 9%;
+
+    color: #FFFFFF;
+  }
+ 
+ .NFTBanner img {
+   padding-right: 7%;
+   height: 3vw;
+ }
+

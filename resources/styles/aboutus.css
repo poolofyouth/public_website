@@ -1,0 +1,211 @@
+
+html {
+  font-size: 18px;
+}
+
+body {
+  margin: 0;
+}
+
+/* ABOUTUS INFO*/
+.aboutusInfo {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    width: 100vw;
+    height: 46vw; 
+      
+    background-color: #FFFFFF;
+   }
+   
+   .aboutusInfoImage {
+     display: flex;
+     flex-flow: column;
+  }
+
+  #floatingPerson{
+    width: 50%;
+    height: 50%;
+    padding-top: 40%;
+    padding-left: 20%;
+  }
+
+  #swimmingPerson{
+    width: 50%;
+    height: 50%;
+    padding-left: 25%;
+    padding-bottom: 20%;
+  }
+   
+   .aboutusInfoContainer {
+     display: flex;
+     flex-flow: column;
+     width: 90%;
+     padding: 8%;
+   }
+   
+   .title {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+
+    height: 3.4vw;
+    width: 100%;
+    margin-bottom: 3vw;
+
+    font-family: 'Roboto';
+   }
+
+   #about {
+    color: #167D7F;
+    font-size: 1.4vw;
+    margin-right: 1vw;
+   }
+
+   #pool {
+     color: #ED99A0;
+     font-size: 1.4vw;
+
+   }
+   
+   .aboutusInfo p {     
+     font-family: 'Roboto';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 1.5vw;
+     width: 50vw;
+     line-height: 2.5vw;
+     text-align: center;
+     margin-top: 25px;
+     
+     color: #1A5D5F;
+   }
+   
+
+   /* MEET THE HOSTS */
+
+   .meetTheHosts {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+
+    width: 100vw;
+    position: relative;
+    height: 55.5vw; 
+         
+    background-color: #ED99A0;
+   }
+   
+   .meetTheHostsContainer {
+    display: flex;
+    flex-flow: column;
+    width: 90%;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .meetTheHosts h2 {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 4.2vw;
+      
+    color: #FFFFFF;
+  }
+
+  .hostProfiles {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    width: 75%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+   .hostProfileBio {
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+      justify-content: center;
+
+      width: 30%;
+      height: 30%;
+      padding-left: 3vw;
+      padding-right: 3vw;
+   }
+
+    .hostProfiles h3 {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-size: 1.3vw;
+
+        color: #FFFFFF;
+    }
+
+    .hostProfiles p {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-size: 1vw;
+        line-height: 1.3vw;
+        text-align: center;
+        margin-top: -0.3rem;
+
+        color: #FFFFFF;
+    }
+
+    .hostProfiles img {
+      width: 17vw;
+      height: 17vw;
+    }
+
+    .NFTBanner2 {
+      display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+ 
+    width: 100vw;
+    height: 3.5vw;
+ 
+    background-color: #FFFFFF;
+ }
+ 
+ .NFTBanner2 h4 {
+   font-family: 'Roboto';
+   font-style: normal;
+   font-size: 1.5vw;
+    
+   text-align: left;
+   width: 100%;
+   padding-left: 20%;
+ 
+   color: #ED99A0;
+ }
+
+ .NFTBanner2 p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 1vw;
+     
+    width: 100%;
+    padding-left: 9%;
+
+    color: #ED99A0;
+  }
+ 
+ .NFTBanner2 img {
+   padding-right: 7%;
+   height: 3vw;
+ }
+
+
+    
+    
